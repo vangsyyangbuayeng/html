@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Hello world
+    <script>
+        console.log('Hello grid')
+        const grid = [
+            [1,0,0,0],
+            [1,0,0,0],
+            [1,0,0,0],
+            [1,0,0,0]
+        ]
+        if (grid[0][0] & grid[1][0] & grid[2][0] & grid[3][0] === 1 ){
+            console.log('grid ແມ່ນເສັ້ນແນວຕັ້ງໃນ column 0, ມີຄ່າເທົ່າກັບ 1,1,1,1')
+        } else {
+            console.log('not found')
+        }
+
+    </script>
+</body>
+</html>
